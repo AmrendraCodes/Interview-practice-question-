@@ -10,5 +10,20 @@ for (let i = 1; i<n.length; i++){
     }
 }
 console.log(largest);
- console.log("amrendra");
+
+ // Reverse a string with simple method
+
+ function reverseString(str){
+    let result = "";
+    for(let i = str.length-1;i>=0;i--){
+        result += str[i];
+    }
+    return result;
+ }
+
+ console.log(reverseString("ammu"));
+
+
+ 
+ 
  
